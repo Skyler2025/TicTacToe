@@ -22,7 +22,7 @@ public class TicTacToe {
         System.out.println("Welcome to Tic Tac Toe!");
 
         while (true) {
-            System.out.println("Enter the row and column for player X:");
+            System.out.println("Enter the row and column for Player X:");
             int row = scanner.nextInt();
             int col = scanner.nextInt();
             board[row][col] = 'X';
@@ -35,7 +35,7 @@ public class TicTacToe {
                 break;
             }
 
-            System.out.println("Enter the row and column for player O:");
+            System.out.println("Enter the row and column for Player O:");
             row = scanner.nextInt();
             col = scanner.nextInt();
             board[row][col] = 'O';
