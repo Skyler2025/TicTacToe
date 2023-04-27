@@ -20,7 +20,7 @@ public class TicTacToe {
 
         printBoard();
         System.out.println("Welcome to Tic Tac Toe!");
-
+        System.out.println("Get three in a row/column/diagonal to win!");
         while (true) {
             System.out.println("Enter the row and column for Player X:");
             int row = scanner.nextInt();
